@@ -9,3 +9,5 @@ This visualisation uses [pywebview](https://github.com/r0x0r/pywebview) which is
 The application is currently in its testing phase and will be implemented in DEXBot in the near future.
 
 ![Image of Visualisation](Visualisation.png)
+
+![UML of Visualisation](Chart.png)
