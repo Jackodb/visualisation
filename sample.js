@@ -1,7 +1,3 @@
-// window.addEventListener("DOMContentLoaded", function() {
-//
-//     )});
-
 function showChart() {
   console.log('showChart loaded');
   window.pywebview.api.getData().then(
@@ -20,15 +16,6 @@ function showChart() {
 // }
 //
 // init();
-
-// function showChart() {
-//   setTimeout(function () {
-//   window.pywebview.api.getData().then(
-//         function(result) {
-//           drawChart(result.price,result.mountain,result.current,result.title);
-//         }
-//       )}, 4000);
-// };
 
 function drawChart(x, y, z, w) {
     var ctx = document.getElementById("myChart");
